@@ -38,7 +38,7 @@ Run the following statement in mysql shell:
 To seed the CourseEquivalency table:
 
 1. Navigate to the data folder using `cd api/scrapers/data`
-2. Run `python upload_engineering_packages.py`
+2. Run `python _upload_engineering_packages.py`
 
 ## Selenium Scraper setup
 
