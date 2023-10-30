@@ -1,13 +1,7 @@
-from urllib.parse import urlparse
-from itsdangerous import URLSafeTimedSerializer as Serializer
 from flask import Flask, request, redirect, jsonify, url_for, flash
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail, Message
-import flask_appbuilder
-import importlib
-import sys
-import json
 import bcrypt
 import jwt
 import os
